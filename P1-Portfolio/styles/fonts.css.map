@@ -1,7 +1,10 @@
-{
-"version": 3,
-"mappings": ";AACA,UAWC;EAVG,WAAW,EAAE,mBAAmB;EAChC,GAAG,EAAE,0CAA0C;EAC/C,GAAG,EAAE,kVAA6E;EAKlF,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM",
-"sources": ["fonts.scss"],
-"names": [],
-"file": "fonts.css"
+﻿{
+	"version": 3,
+	"file": "fonts.css",
+	"sources": [
+		"fonts.scss"
+	],
+	"sourcesContent": [],
+	"mappings": "AAAA,mFAAmF;AACnF,UAAU;EACN,WAAW,EAAE,mBAAoB;EACjC,GAAG,EAAE,2CAAG;EACR,GAAG,EAAE,kDAAG,CAAgD,2BAAM,EACzD,6CAAG,CAA2C,eAAM,EACpD,4CAAG,CAA0C,cAAM,EACnD,2CAAG,CAAyC,kBAAM,EAClD,6DAAG,CAA2D,aAAM;EACzE,WAAW,EAAE,MAAO;EACpB,UAAU,EAAE,MAAO",
+	"names": []
 }

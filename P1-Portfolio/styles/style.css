@@ -25,7 +25,8 @@ header {
       background-color: #bcbbbb;
       font-size: 1.75em;
       color: #fff;
-      padding: 0 3em; }
+      padding: 0 3em;
+      text-shadow: #999 3px 3px 5px; }
 
 .content {
   margin-left: 200px; }
@@ -33,7 +34,8 @@ header {
     display: flex;
     -ms-flex-direction: row;
     -webkit-flex-direction: row;
-    flex-direction: row; }
+    flex-direction: row;
+    justify-content: space-between; }
     .content .featured-works div {
       text-align: center; }
 
