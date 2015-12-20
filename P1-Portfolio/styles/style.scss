@@ -5,6 +5,7 @@ $left-margin: 200px;
 
 body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-right: $left-margin;
 }
 
 header {
@@ -12,6 +13,7 @@ header {
   margin-left: $left-margin;
   margin-bottom: 2em;
   display: flex;
+  justify-content: space-between;
 
   img {
     height: 7rem;
@@ -21,24 +23,28 @@ header {
 
   div {
     display: block;
-    position: relative;
-    right: 0;
-    width: 100%;
-    text-align: right;
+    width: 35%;
 
     h1 {
+      display: block;
       font-family: 'josefin_sanslight', sans-serif;
-      font-size: 4rem;
+      font-size: 3rem;
+      line-height: 1.5em;
       margin: 0;
       text-shadow: #aaa 3px 3px 5px;
+      width: auto;
+      text-align: center;
     }
 
     span {
-      background-color: $divider-color;
+      display: block;
+      background-color: $logo-color;
       font-size: 1.75em;
+      line-height: 1.5em;
       color: #fff;
-      padding: 0 3em;
-      text-shadow: #999 3px 3px 5px;
+      text-shadow: #555 3px 3px 5px;
+      width: auto;
+      text-align: center;
     }
   }
 }
@@ -47,6 +53,11 @@ header {
   margin-left: $left-margin;
 
   .hero-image {
+    max-width: 100%;
+
+    img {
+      width: 100%;
+    }
   }
 
   .featured-works {
@@ -56,9 +67,18 @@ header {
     flex-direction: row;
     justify-content: space-between;
 
-
     div {
       text-align: center;
+
+      .frame {
+        overflow-y: hidden;
+        height: 200px;
+        display: flex;
+        align-items: center;
+
+        img {
+        }
+      }
     }
   }
 }

@@ -1,35 +1,45 @@
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-right: 200px; }
 
 header {
   border-bottom: solid 5px #bcbbbb;
   margin-left: 200px;
   margin-bottom: 2em;
-  display: flex; }
+  display: flex;
+  justify-content: space-between; }
   header img {
     height: 7rem;
     display: block;
     margin: 0 0 2% 0; }
   header div {
     display: block;
-    position: relative;
-    right: 0;
-    width: 100%;
-    text-align: right; }
+    width: 35%; }
     header div h1 {
+      display: block;
       font-family: 'josefin_sanslight', sans-serif;
-      font-size: 4rem;
+      font-size: 3rem;
+      line-height: 1.5em;
       margin: 0;
-      text-shadow: #aaa 3px 3px 5px; }
+      text-shadow: #aaa 3px 3px 5px;
+      width: auto;
+      text-align: center; }
     header div span {
-      background-color: #bcbbbb;
+      display: block;
+      background-color: #f8981c;
       font-size: 1.75em;
+      line-height: 1.5em;
       color: #fff;
-      padding: 0 3em;
-      text-shadow: #999 3px 3px 5px; }
+      text-shadow: #555 3px 3px 5px;
+      width: auto;
+      text-align: center; }
 
 .content {
   margin-left: 200px; }
+  .content .hero-image {
+    max-width: 100%; }
+    .content .hero-image img {
+      width: 100%; }
   .content .featured-works {
     display: flex;
     -ms-flex-direction: row;
@@ -38,6 +48,11 @@ header {
     justify-content: space-between; }
     .content .featured-works div {
       text-align: center; }
+      .content .featured-works div .frame {
+        overflow-y: hidden;
+        height: 200px;
+        display: flex;
+        align-items: center; }
 
 .color-bar {
   float: left;
